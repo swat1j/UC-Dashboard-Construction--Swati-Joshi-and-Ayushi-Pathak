@@ -1,5 +1,6 @@
 # UC Admissions Equity Intelligence Platform
 **Challenge:** UC Admissions Data Challenge 2026
+
 **Team:** Ayushi Pathak, Swati Joshi, Akshaj Karthikeyan
 
 ## I. Analytical Framework
