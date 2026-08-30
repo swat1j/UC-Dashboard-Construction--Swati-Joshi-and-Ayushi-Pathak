@@ -1,5 +1,5 @@
 # UC Admissions Equity Dashboard
-**Team:** [Insert Your Names]
+**Team:** Ayushi, Swati, Akshaj
 
 ## Analytical Framework
 *   **Time Window:** 2017 to 2025 (Aligning with stable `frpm_pct` and `ag_completion_rate` reporting data).
