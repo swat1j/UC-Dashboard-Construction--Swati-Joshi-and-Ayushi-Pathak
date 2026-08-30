@@ -68,10 +68,14 @@ if st.button("Generate Trend Analysis"):
         Focus on how the gap between High Poverty and Low Poverty schools shifted after this 2021 policy change.
         """
         
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
+        # UPDATED: Using the new Interactions API and 3.6-flash model
+        interaction = client.interactions.create(
+            model='gemini-3.6-flash',
+            input=prompt
         )
-        st.info(response.text)
+        
+        # UPDATED: Using interaction.output_text
+        st.info(interaction.output_text)
+        
     except Exception as e:
         st.error(f"Error connecting to Gemini: Make sure you added your API key to Streamlit secrets. Details: {e}")
